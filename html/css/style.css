@@ -11,7 +11,7 @@ a{
 }
 
 body{
-    background: rgb(197, 122, 51);
+    background: linear-gradient(180deg, rgb(61, 31, 6) 0%, rgba(153,75,10,1) 100%);
 }
 
 /*              HEADER              */
@@ -21,7 +21,7 @@ body{
     grid-template-columns: 240px auto 10%;
     grid-template-rows: 80px;
     text-align: center;
-    background: rgba(255, 166, 0, 0.164);
+    background: linear-gradient(0deg, rgba(61, 31, 6) 0%, rgba(153,75,10,1) 100%);
 }
 
 .navbar ul{
@@ -109,6 +109,7 @@ label.logo{
 }
 
 .lor1{
+    color: antiquewhite;
     grid-column: 2 / 2;
     text-align: center;
     margin: 40px;
@@ -121,6 +122,7 @@ label.logo{
 }
 
 .lor2{
+    color: antiquewhite;
     grid-column: 2 / 2;
     text-align: center;
     margin: 40px;
@@ -135,7 +137,7 @@ footer{
     justify-content:center;
     width: 100%;
     height: 80px;
-    background-color: rgb(165, 101, 42);
+    background-color: rgba(153,75,10,1);
 }
 
 footer ul{
@@ -149,6 +151,7 @@ footer ul li{
 }
 
 footer ul li a{
+    color: antiquewhite;
     padding: 0 15px;
 }
 
@@ -170,6 +173,7 @@ footer ul li a{
 }
 
 .contact{
+    color: antiquewhite;
     grid-column: 1/ 2;
     grid-row: 2 / 2;
     margin-left: 30px;
@@ -205,7 +209,7 @@ footer ul li a{
 
 .nnprod{
     padding: 20px;
-    background-color: rgb(165, 101, 42);
+    background-image: radial-gradient(circle, rgba(153, 74, 10, 0.63) 0%, rgba(184, 91, 16, 0) 100%);
 }
 
 .nprod{
@@ -227,6 +231,7 @@ footer ul li a{
 }
 
 .contenedorprod p{
+    color: antiquewhite;
     text-align: center;
 }
 
@@ -259,10 +264,10 @@ footer ul li a{
     padding: 20px 20px;
     font-size: 14px;
     line-height: 1.3;
-    background: rgb(165, 101, 42);
+    background-image: radial-gradient(circle, rgba(153, 74, 10, 0.63) 0%, rgba(184, 91, 16, 0) 100%);
     border-radius: 7px;
     margin: 30px;
-    box-shadow: 1px 5px 10px rgb(124, 77, 33)
+    box-shadow: 1px 5px 10px rgb(0, 0, 0)
 }
 .prod2{
     width: 90%;
@@ -270,16 +275,15 @@ footer ul li a{
     padding: 20px 20px;
     font-size: 14px;
     line-height: 1.3;
-    background: rgb(165, 101, 42);
+    background-image: radial-gradient(circle, rgba(153, 74, 10, 0.63) 0%, rgba(184, 91, 16, 0) 100%);
     border-radius: 7px;
     margin: 10px;
     margin-left: 8%;
-    box-shadow: 1px 5px 10px rgb(124, 77, 33)
+    box-shadow: 1px 5px 10px rgb(0, 0, 0)
 }
 .nservicios{
     text-align: center;
     padding: 30px;
-    background: rgb(165, 101, 42);
 }
 
 .nservicios h1{
@@ -314,10 +318,10 @@ footer ul li a{
     }
 
     .navbar ul{
+        background: radial-gradient(circle, rgba(153,75,10,1) 0%, rgba(34,17,3,1) 100%);
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: rgb(197, 122, 51);
         text-align: center;
         left: -100%;
         transition: all .4s;
