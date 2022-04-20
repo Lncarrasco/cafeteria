@@ -16,69 +16,22 @@ body{
 
 /*              HEADER              */
 
-.navbar{
-    display:grid;
-    grid-template-columns: 240px auto 10%;
-    grid-template-rows: 80px;
-    text-align: center;
-    background: linear-gradient(0deg, rgba(61, 31, 6) 0%, rgba(153,75,10,1) 100%);
+header{
+    height: 5rem;
+    background-image:linear-gradient(180deg, rgb(153,75,10,1) 0%, rgba(61, 31, 6) 100%);
 }
 
-.navbar ul{
-    grid-column: 2 / 3;
-    grid-row: 1;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+header div{
+    margin-top: 0.4rem;
 }
 
-.navbar ul li{
-    text-align: center;
+#navbarSupportedContent{
+    margin-left: 33%;
 }
 
-.navbar ul li a{
-    
-    color: antiquewhite;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 50px;
+header .navbar-brand{
+    font-size: 20pt;
 }
-
-label.logo{
-    grid-column: 1 / 4;
-    grid-row: 1 ;
-    display: flex;
-    justify-content: flex-start;  
-    color: antiquewhite;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 80px;
-    margin-right: auto;
-    margin-left: 50px;
-}
-
-.checkboton{
-    grid-column: 3;
-    grid-row: 1;
-    color: antiquewhite;
-    background: none;
-    border: none;
-    font-size: 30px;
-    margin: 20px 20px;
-    display: none;
-}
-
-#check{
-    display: none;
-}
-
-
-/*              FIN HEADER               */
-
-
-
-    
 
 /*              MAIN               */
 
@@ -89,46 +42,15 @@ label.logo{
     object-position: center;
 }
 
-.contenedor{
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
+main .row{
+margin-left: 1rem;
+margin-right: 1rem;
 }
 
-.pdes{
-    color: antiquewhite;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#pdest{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.082);
+    background: radial-gradient(circle, rgba(153, 74, 10, 0.685) 0%, rgba(34, 17, 3, 0) 100%);
 }
-
-.pro1{
-    grid-column: 1 / 2;
-    border-radius: 6px;
-    margin: 0 10px 10px 10px;
-}
-
-.lor1{
-    color: antiquewhite;
-    grid-column: 2 / 2;
-    text-align: center;
-    margin: 40px;
-}
-
-.pro2{
-    grid-column: 1 / 2;
-    border-radius: 6px;
-    margin: 0 10px 10px 10px;
-}
-
-.lor2{
-    color: antiquewhite;
-    grid-column: 2 / 2;
-    text-align: center;
-    margin: 40px;
-}
-
-
 
 /*              FOOTER               */
 
@@ -155,43 +77,10 @@ footer ul li a{
     padding: 0 15px;
 }
 
-
 /* CONTACTO */
-
-
-.conte{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto auto auto;
+#contact{
+    background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%);
 }
-
-.headc{
-    grid-column: 1 / 4;
-    text-align: center;
-    color: antiquewhite;
-    margin: 10px;
-}
-
-.contact{
-    color: antiquewhite;
-    grid-column: 1/ 2;
-    grid-row: 2 / 2;
-    margin-left: 30px;
-    text-align: center;
-}
-
-.formu{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    text-align: center;
-}
-
-.ubi{
-    grid-column: 3 / 3;
-    margin-left: 10px;
-    ;
-}
-
 
 /* Productos */
 
