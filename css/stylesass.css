@@ -68,6 +68,37 @@ main {
   color: #d1b591;
   background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%); }
 
+.btn, .btn-enviar, .btn-cancelar, .btn-limpiar {
+  border: none;
+  background-color: white;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+.btn-enviar {
+  background-color: #a04f0c;
+  color: #d1b591; }
+
+.btn-cancelar {
+  background-color: #682f09;
+  color: #d1b591; }
+
+.btn-limpiar {
+  background-color: #682f09;
+  color: #d1b591; }
+
+#mapcaja {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #mapcaja #map {
+    height: 350px;
+    width: 600px; }
+
+@media screen and (max-width: 992px) {
+  height: auto !important;
+  width: auto !important; }
+
 .nprod {
   color: #d1b591;
   text-align: center;
@@ -75,3 +106,9 @@ main {
 
 #tnav {
   color: #d1b591; }
+
+.enviosm {
+  color: #d1b591; }
+  .enviosm .row {
+    padding: 25px 25px;
+    text-align: center; }
