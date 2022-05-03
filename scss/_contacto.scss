@@ -1,4 +1,53 @@
+@mixin boxSizes($width, $height) {
+    height: $height;
+    width: $width;
+  }
+
+@mixin centrarEnCaja() {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 #contact{
     color: rgb(209, 181, 145);
     background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%);
 }
+
+.btn {
+    border: none;
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(black, 0.5);
+}
+
+.btn-enviar{
+    @extend .btn;
+    background-color: rgb(160, 79, 12);
+    color: rgb(209, 181, 145);
+}
+
+.btn-cancelar{
+    @extend .btn;
+    background-color: rgb(104, 47, 9);
+    color: rgb(209, 181, 145);
+}
+
+.btn-limpiar{
+    @extend .btn;
+    background-color: rgb(104, 47, 9);
+    color: rgb(209, 181, 145);
+}
+
+#mapcaja{
+    @include centrarEnCaja;
+    #map{
+    @include boxSizes(600px, 350px);
+  }
+}
+@media screen and (max-width: 992px){
+    @include boxSizes(auto !important, auto !important);
+}
+
+
