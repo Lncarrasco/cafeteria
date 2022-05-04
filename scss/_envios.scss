@@ -1,8 +1,25 @@
-.enviosm {
-    color: rgb(209, 181, 145);
+$fondo:(
+    info: rgb(139, 118, 91),
+    enviosc: rgb(139, 89, 23),
+    za: rgb(107, 75, 32),
+    aten: rgb(65, 45, 19),
+);
+
+@each $contenido,
+ $color in $fondo {
+    .map_#{$contenido}{
+        color: $color;
+    }
+}
+
+.enviosm{
 
     .row {
         padding: 25px 25px;
         text-align: center;
+        p{
+            color: rgb(209, 181, 145);
+        }
     }
+    
 }

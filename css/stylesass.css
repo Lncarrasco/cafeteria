@@ -107,8 +107,20 @@ main {
 #tnav {
   color: #d1b591; }
 
-.enviosm {
-  color: #d1b591; }
-  .enviosm .row {
-    padding: 25px 25px;
-    text-align: center; }
+.map_info {
+  color: #8b765b; }
+
+.map_enviosc {
+  color: #8b5917; }
+
+.map_za {
+  color: #6b4b20; }
+
+.map_aten {
+  color: #412d13; }
+
+.enviosm .row {
+  padding: 25px 25px;
+  text-align: center; }
+  .enviosm .row p {
+    color: #d1b591; }
