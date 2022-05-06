@@ -27,11 +27,14 @@ footer {
         footer ul li a:hover {
           color: rgba(163, 142, 114, 0.767); }
 
-#pdest {
-  text-align: center;
+header #nbar {
+  background: radial-gradient(circle, #633006 0%, black 75%); }
+
+header #tnav {
   color: #d1b591; }
 
-#tnav {
+#pdest {
+  text-align: center;
   color: #d1b591; }
 
 * {
@@ -50,7 +53,8 @@ main {
   background: radial-gradient(circle, #633006 0%, black 75%); }
   main #caja {
     border-radius: 0.3rem;
-    border: 1px solid #d1b591; }
+    border: 1px solid #d1b591;
+    background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%); }
     main #caja #texto {
       color: #d1b591; }
     main #caja #ipdes {

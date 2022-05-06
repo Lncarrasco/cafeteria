@@ -14,11 +14,15 @@
 </head>
 
 <body>
+    <!-- Inicio Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light"
-            style="background: radial-gradient(circle, rgb(99, 48, 6) 0%, rgb(0, 0, 0) 75%);">
+
+        <!--Navbar  -->
+        <nav id="nbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" id="cafeteria" href="#">Cafeteria</a>
+                <a class="navbar-brand" id="cafeteria" href="#">
+                    <h1>Cafetería</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,22 +31,28 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" id="tnav" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="productos.html">Productos</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="contacto.html">Contacto</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="servicios.html">Servicios</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="productos.html">Productos</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="contacto.html">Contacto</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="servicios.html">Servicios</a>
                         <a class="nav-link active" id="tnav" aria-current="page" href="envios.html">Envios</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
-    <div class="row">
-        <div class="col-12 text-white text-center">
-            <h1 id="contact">Contactanos</h1>
-        </div>
+    <!-- Fin Header -->
 
-        <div class="col-12 col-sm-4 col-md-4 col-lg-6 text-white text-center">
+    <!-- Inicio Main -->
+    <main>
+        <div class="row">
+            <div class="col-12 text-white text-center">
+                <h1 id="contact">Contactanos</h1>
+            </div>
+
+            <div class="col-12 col-sm-4 col-md-4 col-lg-6 text-white text-center">
                 <h2>Información</h2>
                 <p>Dirección: Calle 1520</p>
                 <p>Tel: (54 11) 52124453</p>
@@ -64,16 +74,19 @@
                 <button class="btn-cancelar">Cancelar</button>
                 <button class="btn-limpiar" type="reset">Limpiar formulario</button>
             </div>
-            
+
             <div id="mapcaja" class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26256.269488180194!2d-58.57565896794106!3d-34.65385219608781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d93bab75a3%3A0xaafe140bc9dea3db!2sRamos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647646758403!5m2!1ses!2sar"
-                 id="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26256.269488180194!2d-58.57565896794106!3d-34.65385219608781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d93bab75a3%3A0xaafe140bc9dea3db!2sRamos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647646758403!5m2!1ses!2sar"
+                    id="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
         </div>
 
-    </div>
+        </div>
     </main>
+    <!-- Fin Main -->
 
+    <!-- Inicio Footer -->
     <footer>
         <ul>
             <li>
@@ -85,6 +98,8 @@
             </li>
         </ul>
     </footer>
+    <!-- Fin Footer -->
+
     <!-- Bootstraps Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

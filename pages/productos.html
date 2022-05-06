@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Productos</title>
-        <link rel="stylesheet" href="../css/stylesass.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-        <!-- Bootstrap CDN Stylesheet -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/stylesass.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Bootstrap CDN Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
 
 <body>
+    <!-- Inicio Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light"
-            style="background: radial-gradient(circle, rgb(99, 48, 6) 0%, rgb(0, 0, 0) 75%);">
+        <!-- Navbar -->
+        <nav id="nbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" id="cafeteria" href="#">Cafeteria</a>
+                <a class="navbar-brand" id="cafeteria" href="#">
+                    <h1>Cafetería</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,16 +30,21 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" id="tnav" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="productos.html">Productos</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="contacto.html">Contacto</a>
-                        <a class="nav-link active" id="tnav" aria-current="page" href="servicios.html">Servicios</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="productos.html">Productos</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="contacto.html">Contacto</a>
+                        <a class="nav-link active" id="tnav" aria-current="page"
+                            href="servicios.html">Servicios</a>
                         <a class="nav-link active" id="tnav" aria-current="page" href="envios.html">Envios</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- Fin Header -->
 
+    <!-- Inicio Main -->
     <main>
         <!-- Carrusel -->
 
@@ -53,12 +61,13 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Cards -->
         <h1 class="nprod">Nuestros productos</h1>
         <div class="row gy-3 justify-content-center" id="cajas">
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto1">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -67,7 +76,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto2">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -76,7 +86,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto3">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -85,7 +96,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto4">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -94,7 +106,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto5">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -103,7 +116,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto6">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -112,7 +126,8 @@
                 </div>
             </div>
             <div class="col-12 col-sm-4 col-md-3 col-lg-3">
-                <div class="card" id="caja" style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
+                <div class="card" id="caja"
+                    style="background: linear-gradient(180deg, rgba(153, 74, 10, 0.295) 0%, rgba(34, 17, 3, 0.986) 40%)">
                     <img src="../img/Frappe.jpg" id="ipdes" alt="producto7">
                     <div class="card-body " id="texto">
                         <h5 class="card-title">Frappé</h5>
@@ -124,7 +139,9 @@
         </div>
 
     </main>
+    <!-- Fin Main -->
 
+    <!-- Inicio Footer -->
     <footer>
         <ul>
             <li>
@@ -136,7 +153,7 @@
             </li>
         </ul>
     </footer>
+    <!-- Fin Footer -->
 </body>
-
 
 </html>
