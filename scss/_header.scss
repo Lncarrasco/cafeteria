@@ -1,13 +1,19 @@
-header{
-    #cafeteria{
-        font-size: 30px;
-        margin-left: 3rem;
-        color: rgb(209, 181, 145);
-    }
-    #tnav{
-        color: rgb(209, 181, 145);
-    }
+header {
     #nbar {
         background: radial-gradient(circle, rgb(99, 48, 6) 0%, rgb(0, 0, 0) 75%);
+
+        #cafeteria {
+            font-size: 30px;
+            margin-left: 3rem;
+            color: rgb(209, 181, 145);
+        }
+
+        #burguer{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(209, 181, 145)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        #tnav {
+            color: rgb(209, 181, 145);
+        }
     }
 }

@@ -1,13 +1,13 @@
-header #cafeteria {
-  font-size: 30px;
-  margin-left: 3rem;
-  color: #d1b591; }
-
-header #tnav {
-  color: #d1b591; }
-
 header #nbar {
   background: radial-gradient(circle, #633006 0%, black 75%); }
+  header #nbar #cafeteria {
+    font-size: 30px;
+    margin-left: 3rem;
+    color: #d1b591; }
+  header #nbar #burguer {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(209, 181, 145)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  header #nbar #tnav {
+    color: #d1b591; }
 
 footer {
   display: flex;
@@ -26,9 +26,6 @@ footer {
         padding: 0 15px; }
         footer ul li a:hover {
           color: rgba(163, 142, 114, 0.767); }
-
-header #tnav {
-  color: #d1b591; }
 
 #pdest {
   text-align: center;
@@ -70,45 +67,40 @@ main {
 
 #mainc {
   padding-bottom: 86px; }
-
-#contact {
-  color: #d1b591;
-  background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%); }
-
-.btn, .btn-enviar, .btn-cancelar, .btn-limpiar {
-  border: none;
-  background-color: white;
-  padding: 7px;
-  border-radius: 7px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
-
-.btn-enviar {
-  background-color: #a04f0c;
-  color: #d1b591; }
-
-.btn-cancelar {
-  background-color: #682f09;
-  color: #d1b591; }
-
-.btn-limpiar {
-  background-color: #682f09;
-  color: #d1b591; }
-
-#mapcaja {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  #mapcaja #map {
-    height: 350px;
-    width: 600px; }
+  #mainc #contact {
+    color: #d1b591;
+    background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%); }
+  #mainc .btn, #mainc .btn-enviar, #mainc .btn-cancelar, #mainc .btn-limpiar {
+    border: none;
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  #mainc .btn-enviar {
+    background-color: #a04f0c;
+    color: #d1b591; }
+  #mainc .btn-cancelar {
+    background-color: #682f09;
+    color: #d1b591; }
+  #mainc .btn-limpiar {
+    background-color: #682f09;
+    color: #d1b591; }
+  #mainc #mapcaja {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #mainc #mapcaja #map {
+      height: 350px;
+      width: 600px; }
+    @media screen and (max-width: 992px) {
+      #mainc #mapcaja {
+        height: auto !important;
+        width: auto !important; } }
 
 .nprod {
   color: #d1b591;
   text-align: center;
   font-size: 40px; }
-
-#tnav {
-  color: #d1b591; }
 
 .map_info {
   color: #8b765b; }
