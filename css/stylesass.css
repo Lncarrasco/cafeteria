@@ -6,8 +6,8 @@ header #cafeteria {
 header #tnav {
   color: #d1b591; }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+header #nbar {
+  background: radial-gradient(circle, #633006 0%, black 75%); }
 
 footer {
   display: flex;
@@ -27,15 +27,15 @@ footer {
         footer ul li a:hover {
           color: rgba(163, 142, 114, 0.767); }
 
-header #nbar {
-  background: radial-gradient(circle, #633006 0%, black 75%); }
-
 header #tnav {
   color: #d1b591; }
 
 #pdest {
   text-align: center;
   color: #d1b591; }
+
+#cajas {
+  width: 100%; }
 
 * {
   margin: 0;
@@ -68,6 +68,9 @@ main {
 #tnav {
   color: #d1b591; }
 
+#mainc {
+  padding-bottom: 86px; }
+
 #contact {
   color: #d1b591;
   background: radial-gradient(circle, rgba(153, 74, 10, 0.623) 0%, rgba(34, 17, 3, 0) 100%); }
@@ -99,10 +102,6 @@ main {
     height: 350px;
     width: 600px; }
 
-@media screen and (max-width: 992px) {
-  height: auto !important;
-  width: auto !important; }
-
 .nprod {
   color: #d1b591;
   text-align: center;
@@ -123,8 +122,12 @@ main {
 .map_aten {
   color: #412d13; }
 
-.enviosm .row {
-  padding: 25px 25px;
-  text-align: center; }
-  .enviosm .row p {
-    color: #d1b591; }
+.enviosm {
+  padding-bottom: 242px; }
+  .enviosm #gridc {
+    width: 100%; }
+  .enviosm .row {
+    padding: 25px 25px;
+    text-align: center; }
+    .enviosm .row p {
+      color: #d1b591; }
